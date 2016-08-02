@@ -10,3 +10,4 @@ python setup.py install
 ##Commands
 
 * `scrub_comments <CLIENT_ID> <CLENT_SECRET> <REDIRECT_URI>`
+* `auto_reply <CLIENT_ID> <CLIENT_SECRET> <REDIRECT_URI> <USER_NAME> <REPLY>`
