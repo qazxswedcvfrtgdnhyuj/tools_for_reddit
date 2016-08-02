@@ -13,6 +13,7 @@ setup(
     entry_points={
         'console_scripts': [
             'scrub_comments = scrub_comments.__main__:main',
+            'auto_reply = auto_reply.__main__:main',
         ]
     }
 )
