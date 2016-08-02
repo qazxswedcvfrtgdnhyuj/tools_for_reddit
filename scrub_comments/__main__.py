@@ -28,7 +28,7 @@ def set_auth_token():
     return 'You can close me whenever you like.'
 
 def main():
-    reddit_client = praw.Reddit('Testing a comment scrubbing app.')
+    reddit_client = praw.Reddit('Reddit tools app.')
 
     reddit_client.set_oauth_app_info(
         client_id=CLIENT_ID,

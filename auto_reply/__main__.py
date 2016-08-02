@@ -7,7 +7,7 @@ import logging
 import sys
 import time
 
-app = Flask('scrub_comments')
+app = Flask('auto_reply')
 
 CLIENT_ID = sys.argv[1]
 CLIENT_SECRET = sys.argv[2]
@@ -31,7 +31,7 @@ def set_auth_token():
     return 'You can close me whenever you like.'
 
 def main():
-    reddit_client = praw.Reddit('Testing a comment scrubbing app.')
+    reddit_client = praw.Reddit('Reddit tools app.')
 
     reddit_client.set_oauth_app_info(
         client_id=CLIENT_ID,
