@@ -1,10 +1,11 @@
 #Reddit Tools
 
 ##Setup
-```Shell
+```
 virtualenv env -p python3.5 && source env/bin/activate
 pip install -r requirements.txt
-python setup.py install```
+python setup.py install
+```
 
 ##Commands
 
