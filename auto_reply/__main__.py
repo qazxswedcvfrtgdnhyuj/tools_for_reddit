@@ -63,5 +63,5 @@ def main():
                 print("Found evil comment, replying.".format())
                 comment.reply(REPLY_CONTENT)
                 comment.mark_as_read()
-        print("Sleeping for 30 minutes.")
-        time.sleep(30*60)
+        print("Sleeping for 1 minute.")
+        time.sleep(60)
