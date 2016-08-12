@@ -40,7 +40,7 @@ def main():
     )
     auth_url = reddit_client.get_authorize_url(
         'auto_reply',
-        'identity read edit history privatemessages',
+        'identity read edit history privatemessages submit',
         refreshable=True
     )
     webbrowser.open(auth_url)
