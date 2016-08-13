@@ -88,6 +88,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-.access_code
-
-app_info.md
+oauth.ini
