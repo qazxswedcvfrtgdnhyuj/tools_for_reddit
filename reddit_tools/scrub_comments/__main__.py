@@ -1,8 +1,6 @@
-import time
-
 import click
-import praw
-import OAuth2Util
+
+from reddit_tools import get_client
 
 
 @click.command()
@@ -23,13 +21,6 @@ def scrub_comments(replacement_text):
             comment.delete()
             print("Comment {} deleted.".format(comment.fullname))
 
+
 def main():
     scrub_comments()
-
-
-def get_client():
-    reddit_client = praw.Reddit("A tool for reddit!")
-    oauth = OAuth2Util.OAuth2Util(reddit_client, configfile='oauth.ini')
-    oauth.refresh(force=True)
-
-    return reddit_client
