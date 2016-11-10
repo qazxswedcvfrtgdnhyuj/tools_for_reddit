@@ -12,8 +12,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'scrub_comments = scrub_comments.__main__:main',
-            'auto_reply = auto_reply.__main__:main',
+            'scrub_comments = reddit_tools.scrub_comments.__main__:main',
+            'auto_reply = reddit_tools.auto_reply.__main__:main',
         ]
     }
 )
