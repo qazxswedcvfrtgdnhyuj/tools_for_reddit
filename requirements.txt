@@ -5,7 +5,8 @@ itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
 praw==3.5.0
-requests==2.10.0
+praw-oauth2util==0.3.5
+requests==2.11.1
 six==1.10.0
 update-checker==0.11
-Werkzeug==0.11.10
+Werkzeug==0.11.11
