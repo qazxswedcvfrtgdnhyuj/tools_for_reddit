@@ -4,7 +4,7 @@ setup(
     name='reddit_tools',
     version='0.0.0',
     license='WTFPL',
-    packages=find_packages('scrub_comments'),
+    packages=find_packages(),
     install_requires=[
         'praw',
         'flask',
